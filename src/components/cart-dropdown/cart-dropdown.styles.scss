@@ -5,20 +5,24 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid black;
+  border: 0.3px solid black;
   background-color: white;
   top: 90px;
   right: 40px;
+//   opacity: 0.8;
   z-index: 5;
+
 
   .cart-items {
     height: 300px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow: scroll;
   }
+
 
   button {
     margin-top: auto;
   }
 }
+
